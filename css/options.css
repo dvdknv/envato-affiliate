@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+
+body {
+    background: #F4F5FB;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+a, select, input {
+    outline: none;
+}
+
+.wrapper {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    background: #fff;
+    border: 1px solid #e8ebef;
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 1px solid #e8ebef;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #444;
+}
+
+.logo img{
+    height: 40px;
+    vertical-align: middle;
+}
+
+.content {
+    padding: 20px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-top:0;
+    margin-bottom: 20px;
+}
+
+.option {
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0 50px 20px 50px;
+}
+
+.option:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.option input {
+    height: 28px;
+    float: right;
+    border: 2px solid #ecf0f1;
+    padding: 5px;
+    border-radius: 0px;
+    min-width: 200px;
+    background: #fff;
+}
+
+.option input:focus {
+    border: 2px solid #3B99FC;
+    transition: all 0.5s;
+}
+
+.footer {
+    border-top: 1px solid #e8ebef;
+    padding: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer a {
+    color: #3B99FC;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #3B99FC;
+    text-decoration: underline;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
+.warning {
+    background:#fff8c4;
+    border: 1px solid #FFF399;
+    text-align: center;
+    color: #E4B45D;
+    margin:0 0 10px;
+    padding: 5px;
+}
+
+.warning {
+    background:#fff8c4;
+    border: 1px solid #FFF399;
+    text-align: center;
+    color: #E4B45D;
+    margin:0 0 10px;
+    padding: 5px;
+}
+
+.success {
+    background:#e9ffd9;
+    border: 1px solid #D7FFBA;
+    text-align: center;
+    color: #77B546;
+    margin:0 0 10px;
+    padding: 5px;
+}
+
+.btn {
+    min-width: 110px;
+    text-align: center;
+    background: transparent;
+    color: #222;
+    border-radius: 0px;
+    border: 2px solid #3B99FC;
+    cursor: pointer;
+    padding: 5px 15px;
+    display: inline-block;
+    outline: none;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    color: #FFF !important;
+    background: #3B99FC;
+}
